@@ -29,7 +29,7 @@ img {
 }
 
 .nav-link {
-  @apply text-light font-primary transition-all duration-700 ease-in-out;
+  @apply text-light font-primary transition-all duration-700 ease-in-out cursor-pointer;
 }
 
 .nav-link:hover {

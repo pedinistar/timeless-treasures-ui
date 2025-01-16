@@ -13,8 +13,8 @@ const ContactSection = () => {
   return (
     <section className="w-full min-h-screen flex flex-col items-center py-10 lg:py-20 relative lg:gap-10">
       <Heading text="Contact" secText="Write to us" />
-      <div className="w-[80%] flex lg:justify-evenly justify-around max-lg:flex-col">
-        <div className="max-lg:hidden left flex flex-col items-center justify-center">
+      <div className="w-[80%] lg:flex lg:justify-evenly max-lg:flex-col">
+        <div className="left max-lg:hidden flex flex-col items-center justify-center">
           <img src={manStatue} alt="A man statue." width={430} />
           <div className="max-lg:hidden flex gap-8">
             <Logo img={mail} alt="Mail Icon." />
@@ -23,8 +23,8 @@ const ContactSection = () => {
             <Logo img={twitter} alt="Twitter Icon." />
           </div>
         </div>
-        <div className="right max-lg:w-full w-[30%] max-lg:mt-52 mt-10 flex flex-col gap-6 items-center relative">
-          <img src={manStatue} alt="A man statue." width={430} className="absolute center-absolute -top-[215px]"/>
+        <div className="right max-lg:w-full w-[30%] mt-10 flex flex-col gap-6 items-center relative">
+          <img src={manStatue} alt="A man statue." width={200} />
           <Input type="text" placeholder="Name" />
           <Input type="text" placeholder="Email" />
           <textarea
@@ -32,7 +32,7 @@ const ContactSection = () => {
             placeholder="Message"
           ></textarea>
           <Button path="/send" text="Send" rootClassName="w-fit" />
-          <div className="lg:hidden lg:mt-10 flex gap-8">
+          <div className="lg:hidden mt-4 flex gap-8">
             <Logo img={mail} alt="Mail Icon." />
             <Logo img={facebook} alt="Facebook Icon." />
             <Logo img={insta} alt="Instagram Icon." />
