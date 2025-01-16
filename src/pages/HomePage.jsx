@@ -1,10 +1,17 @@
 import React from "react";
+import HeroSection from "../components/sections/HeroSection";
+import CategoriesSection from "../components/sections/CategoriesSection";
+import StoryButtonSection from "../components/sections/StoryButtonSection";
+import ShopButtonSection from "../components/sections/ShopButtonSection";
 
 const HomePage = () => {
   return (
-    <main className="">
-      <h1 className="text-light">Home Page</h1>
-    </main>
+    <div>
+      <HeroSection />
+      <StoryButtonSection />
+      <CategoriesSection />
+      <ShopButtonSection />
+    </div>
   );
 };
 
