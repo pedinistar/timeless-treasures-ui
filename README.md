@@ -6,7 +6,7 @@ The **Timeless Treasure UI** is currently a work in progress! We are dedicated t
 ---
 
 ## 📌 Project Overview
-Timeless Treasure UI is the front-end interface for our platform, designed to deliver a seamless and elegant shopping journey.
+Timeless Treasure UI is the front-end interface for our **e-commerce platform specializing in vintage items and books**. Designed with vintage lovers in mind, this platform aims to deliver a seamless and elegant shopping journey for those who cherish timeless treasures.
 
 ### 🌟 Current Status
 - **Development in progress**: We are actively working on building key features and styling components.
@@ -18,7 +18,7 @@ Timeless Treasure UI is the front-end interface for our platform, designed to de
 ## 📷 Screenshots
 Add a screenshot below to showcase the current UI progress:
 
-![Timeless Treasure UI Screenshot](#)
+![Timeless Treasure UI Screenshot]("./intro.png")
 
 ---
 
