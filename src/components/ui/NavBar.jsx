@@ -4,6 +4,7 @@ import { CiShop } from "react-icons/ci";
 import { MdHistoryEdu } from "react-icons/md";
 import { PiShoppingCartFill } from "react-icons/pi";
 import { Link, useLocation } from "react-router-dom";
+import clock from "../../assets/clock.png";
 
 const NavBar = () => {
   const location = useLocation();
@@ -12,7 +13,7 @@ const NavBar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="max-lg:w-full lg:gap-20 w-fit fixed z-50 top-0 right-0 lg:mt-4 lg:mr-4 p-4 lg:px-10 border-2 border-secondary flex max-lg:justify-evenly items-center lg:justify-end justify-between max-md:left-0 max-md:right-0 backdrop-filter backdrop-blur-md">
+    <nav className="lg:gap-20 gap-10 w-full fixed z-50 top-0 left-0 p-4 lg:px-10 border-2 border-secondary flex items-center justify-center backdrop-filter backdrop-blur-md">
       <Link to="/" className="nav-link">
         <h1 className="max-lg:hidden">{isActive("/") ? "{ Home }" : "Home"}</h1>
         <CgHomeAlt className="lg:hidden md:text-3xl text-2xl" />
@@ -22,6 +23,9 @@ const NavBar = () => {
           {isActive("/about") ? "{ Our Story }" : "Our Story"}
         </h1>
         <MdHistoryEdu className="lg:hidden md:text-3xl text-2xl" />
+      </Link>
+      <Link to="/" className="nav-link lg:hidden">
+        <img src={clock} alt="A clock." width={40} />
       </Link>
       <Link to="/shop" className="nav-link">
         <h1 className="max-lg:hidden">

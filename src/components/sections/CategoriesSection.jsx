@@ -7,7 +7,7 @@ const CategoriesSection = () => {
     <section className="w-full min-h-screen flex flex-col justify-center items-center">
       <Heading text="Categories" secText="Vintage Treasures" />
       <div className="mt-20">
-        <div className="grid grid-cols-2 gap-20 mt-20">
+        <div className="grid lg:grid-cols-2 gap-14 mt-10 lg:mt-20">
           {/* Category 1 */}
           <CategoryBox
             path="/shop"

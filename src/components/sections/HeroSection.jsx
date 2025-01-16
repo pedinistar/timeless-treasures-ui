@@ -5,7 +5,7 @@ import tagLine from "../../assets/tagline.png";
 const HeroSection = () => {
   return (
     <section className="section-style relative">
-      <img src={homeFace} alt="A face." className="absolute top-0 left-0" />
+      <img src={homeFace} alt="A face." className="max-lg:hidden absolute top-0 left-0" />
       <div className="w-fit h-fit relative">
         <h1 className="font-primary max-lg:text-2xl lg:text-7xl xl:text-9xl text-light">
           Timeless Treasure

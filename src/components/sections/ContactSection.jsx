@@ -11,19 +11,19 @@ import Heading from "../ui/Heading";
 
 const ContactSection = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center py-20 relative gap-20">
+    <section className="w-full min-h-screen flex flex-col items-center py-20 relative gap-10">
       <Heading text="Contact" secText="Write to us" />
-      <div className="w-[80%] flex justify-evenly">
+      <div className="w-[80%] flex justify-evenly max-lg:flex-col">
         <div className="left flex flex-col items-center justify-center">
           <img src={manStatue} alt="A man statue." width={430} />
-          <div className="flex gap-8">
+          <div className="max-lg:hidden flex gap-8">
             <Logo img={mail} alt="Mail Icon." />
             <Logo img={facebook} alt="Facebook Icon." />
             <Logo img={insta} alt="Instagram Icon." />
             <Logo img={twitter} alt="Twitter Icon." />
           </div>
         </div>
-        <div className="right w-[30%] mt-10 flex flex-col gap-6 items-center">
+        <div className="right max-lg:w-full w-[30%] mt-10 flex flex-col gap-6 items-center">
           <Input type="text" placeholder="Name" />
           <Input type="text" placeholder="Email" />
           <textarea
@@ -31,6 +31,12 @@ const ContactSection = () => {
             placeholder="Message"
           ></textarea>
           <Button path="/send" text="Send" rootClassName="w-fit" />
+          <div className="lg:hidden mt-10 flex gap-8">
+            <Logo img={mail} alt="Mail Icon." />
+            <Logo img={facebook} alt="Facebook Icon." />
+            <Logo img={insta} alt="Instagram Icon." />
+            <Logo img={twitter} alt="Twitter Icon." />
+          </div>
         </div>
       </div>
       <p className="absolute bottom-10 font-primary text-light">
