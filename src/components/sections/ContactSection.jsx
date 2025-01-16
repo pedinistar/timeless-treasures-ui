@@ -24,7 +24,7 @@ const ContactSection = () => {
           </div>
         </div>
         <div className="right max-lg:w-full w-[30%] max-lg:mt-52 mt-10 flex flex-col gap-6 items-center relative">
-          <img src={manStatue} alt="A man statue." width={430} className="absolute center-absolute -top-52"/>
+          <img src={manStatue} alt="A man statue." width={430} className="absolute center-absolute -top-[215px]"/>
           <Input type="text" placeholder="Name" />
           <Input type="text" placeholder="Email" />
           <textarea
@@ -32,7 +32,7 @@ const ContactSection = () => {
             placeholder="Message"
           ></textarea>
           <Button path="/send" text="Send" rootClassName="w-fit" />
-          <div className="lg:hidden mt-10 mb-10 flex gap-8">
+          <div className="lg:hidden mt-10 flex gap-8">
             <Logo img={mail} alt="Mail Icon." />
             <Logo img={facebook} alt="Facebook Icon." />
             <Logo img={insta} alt="Instagram Icon." />
