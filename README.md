@@ -18,7 +18,8 @@ Timeless Treasure UI is the front-end interface for our **e-commerce platform sp
 ## 📷 Screenshots
 Add a screenshot below to showcase the current UI progress:
 
-![Timeless Treasure UI Screenshot]("intro.png")
+![Timeless Treasure UI Screenshot](intro.png)
+<img src="intro.png" alt="Timeless Treasure UI Screenshot" width="500" height="300" />
 
 ---
 
