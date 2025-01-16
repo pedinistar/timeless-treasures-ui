@@ -32,7 +32,7 @@ const ContactSection = () => {
             placeholder="Message"
           ></textarea>
           <Button path="/send" text="Send" rootClassName="w-fit" />
-          <div className="lg:hidden mt-10 flex gap-8">
+          <div className="lg:hidden lg:mt-10 flex gap-8">
             <Logo img={mail} alt="Mail Icon." />
             <Logo img={facebook} alt="Facebook Icon." />
             <Logo img={insta} alt="Instagram Icon." />
