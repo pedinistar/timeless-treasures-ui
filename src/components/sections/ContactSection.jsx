@@ -40,7 +40,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-      <p className="absolute lg:bottom-10 bottom-4 font-primary max-lg:text-xs text-center text-light">
+      <p className="mt-14 font-primary max-lg:text-xs text-center text-light">
         © 2025 Jayashree Pedini | Timeless Treasure | Crafted with ♡ and ⚛
       </p>
     </section>
