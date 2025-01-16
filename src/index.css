@@ -25,7 +25,7 @@ img {
 }
 
 .section-style {
-  @apply w-full min-h-screen flex flex-col items-center justify-center
+  @apply w-full min-h-screen flex flex-col items-center justify-center;
 }
 
 .nav-link {
@@ -38,4 +38,8 @@ img {
 
 .input-style {
   @apply w-full border-2 border-secondary px-6 py-4 bg-primary text-secondary focus:border-secondary focus:outline-none placeholder:text-secondary;
+}
+
+.center-absolute {
+  @apply left-1/2 transform -translate-x-1/2;
 }

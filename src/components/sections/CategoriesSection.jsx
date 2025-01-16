@@ -6,8 +6,8 @@ const CategoriesSection = () => {
   return (
     <section className="w-full min-h-screen flex flex-col justify-center items-center">
       <Heading text="Categories" secText="Vintage Treasures" />
-      <div className="mt-20">
-        <div className="grid lg:grid-cols-2 gap-14 mt-10 lg:mt-20">
+      <div className="max-sm:mt-10 mt-20">
+        <div className="grid lg:grid-cols-2 gap-14 mt-0 md:mt-10 lg:mt-20">
           {/* Category 1 */}
           <CategoryBox
             path="/shop"

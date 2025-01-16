@@ -11,7 +11,7 @@ const StoryButtonSection = () => {
         rootClassName="mt-10"
         image={womanReading}
         imageAlt="A woman reading."
-        imageClassName="w-[250px] -top-[320px] right-[60px]"
+        imageClassName="w-[250px] lg:-top-[320px] -top-[258px] lg:right-[60px] right-[20px]"
       />
     </section>
   );

@@ -5,7 +5,7 @@ const CategoryBox = ({ path, image, text }) => {
   return (
     <Link
       to={path}
-      className="w-[300px] h-[300px] md:w-[400px] md:h[250px] lg:w-[450px] lg:h-[300px] relative outline-double outline-8 outline-secondary cursor-pointer group transition-all duration-300 ease-in-out"
+      className="w-[250px] h-[250px] md:w-[400px] md:h[250px] lg:w-[450px] lg:h-[300px] relative outline-double outline-8 outline-secondary cursor-pointer group transition-all duration-300 ease-in-out"
     >
       {/* Background Image */}
       <div
