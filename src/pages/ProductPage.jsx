@@ -1,6 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useProducts } from "../contexts/ProductsContext";
+import Heading from "../components/ui/Heading";
+import Button from "../components/ui/Button";
+import GoToShopButtonSection from "../components/sections/GoToShopButtonSection";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -12,22 +15,40 @@ const ProductPage = () => {
   }
 
   return (
-    <div className="p-10">
-      <h1 className="text-4xl">{product.productName}</h1>
-      <img
-        src={product.image}
-        alt={product.productName}
-        className="w-full max-w-md"
+    <section className="w-full flex items-center flex-col pt-40 lg:px-80 px-10 font-primary text-light">
+      <Heading text={product.productName} secText={product.description} />
+
+      <div
+        className="mt-8 border-4 border-secondary bg-cover bg-center h-[500px] w-full"
+        style={{ backgroundImage: `url(${product.image})` }}
+        aria-label={product.productName}
       />
-      <p className="text-lg">{product.description}</p>
-      <p className="text-lg">{product.price}</p>
-      <button
-        onClick={() => addToCart(product)}
-        className="bg-secondary text-white py-2 px-4 mt-4"
-      >
-        Add to Cart
-      </button>
-    </div>
+
+      <div className="w-full flex max-lg:flex-col max-lg:gap-10 items-center justify-between mt-20">
+        <h1 className="text-4xl">$ {product.price}</h1>
+        <Button
+          text="Add To Cart"
+          rootClassName="w-fit"
+          onClickHandler={() => addToCart(product)}
+        />
+      </div>
+
+      <div className="w-full mt-20 lg:mt-40 text-center lg:text-left">
+        <h1 className="text-4xl">Product History</h1>
+        <p className="font-secondary text-3xl lg:text-4xl mt-10">
+          {product.history}
+        </p>
+      </div>
+
+      <div className="w-full mt-20 lg:mt-40 text-center lg:text-left">
+        <h1 className="text-4xl">Product Condition</h1>
+        <p className="font-secondary text-3xl lg:text-4xl mt-10">
+          {product.conditionDetails}
+        </p>
+      </div>
+
+      <GoToShopButtonSection />
+    </section>
   );
 };
 

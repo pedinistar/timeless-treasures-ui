@@ -8,11 +8,13 @@ const Button = ({
   imageAlt,
   imageClassName,
   rootClassName,
+  onClickHandler,
 }) => {
   return (
     <div className={`${rootClassName} relative`}>
       <Link
         to={path}
+        onClick={onClickHandler}
         className="text-light font-primary text-xl lg:text-2xl border-2 border-secondary px-10 lg:px-20 py-4 flex items-center justify-center hover:bg-light hover:text-primary duration-700"
       >
         <h1>{text}</h1>
