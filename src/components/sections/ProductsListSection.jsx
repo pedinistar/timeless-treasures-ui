@@ -23,7 +23,7 @@ const ProductsListSection = () => {
       </div>
       <div className="flex flex-col lg:flex-row lg:min-h-screen">
         {/* Filters */}
-        <div className="left lg:w-[30%] w-full py-10 px-20 text-secondary">
+        <div className="left lg:w-[30%] w-full px-6 md:py-10 md:px-20 text-secondary">
 
           <div className="max-md:grid max-md:grid-cols-2 gap-4">
             {["Mint", "Restored", "Authentic", "Replica"].map(
@@ -53,7 +53,7 @@ const ProductsListSection = () => {
           {/* Clear Filter */}
           <button
             onClick={() => setSelectedCondition("")}
-            className="mt-6 font-primary border-2 border-secondary px-4 py-2 hover:bg-light hover:text-primary duration-500"
+            className="mt-6 max-lg:w-full font-primary border-2 border-secondary px-4 py-2 hover:bg-light hover:text-primary duration-500"
           >
             Clear Filter
           </button>
