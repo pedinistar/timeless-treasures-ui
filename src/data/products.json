@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "productName": "Ancient Greek Vase",
+    "image": "https://i.pinimg.com/736x/31/f6/f9/31f6f98fd162a10d0fab5c931d195096.jpg",
+    "description": "A beautifully crafted ancient Greek vase dating back to the 5th century BC.",
+    "price": 120,
+    "condition": "Authentic"
+  },
+  {
+    "id": 2,
+    "productName": "Roman Coin",
+    "image": "https://i.pinimg.com/736x/d6/c2/b9/d6c2b9b3544a02482e9e1be24d9e3dc1.jpg",
+    "description": "A rare Roman coin from the reign of Augustus Caesar.",
+    "price": 300,
+    "condition": "Mint"
+  },
+  {
+    "id": 3,
+    "productName": "Medieval Shield",
+    "image": "https://i.pinimg.com/736x/d2/49/7b/d2497ba641de4606ef2c5e22c4ea15ca.jpg",
+    "description": "A robust shield used by knights in the medieval era.",
+    "price": 250,
+    "condition": "Restored"
+  },
+  {
+    "id": 4,
+    "productName": "Egyptian Papyrus",
+    "image": "https://i.pinimg.com/736x/b5/df/2c/b5df2c4a24cd37c3f37e20d230023f9f.jpg",
+    "description": "An authentic Egyptian papyrus scroll with hieroglyphs.",
+    "price": 80,
+    "condition": "Authentic"
+  },
+  {
+    "id": 5,
+    "productName": "Viking Sword",
+    "image": "https://i.pinimg.com/736x/51/23/06/51230610c3e4f5c46c66b597fce99d0f.jpg",
+    "description": "A sharp Viking sword used during Norse invasions.",
+    "price": 400,
+    "condition": "Restored"
+  },
+  {
+    "id": 6,
+    "productName": "Chinese Porcelain",
+    "image": "https://i.pinimg.com/736x/5e/6a/46/5e6a46b44739cb5f49e8c12f23e49a78.jpg",
+    "description": "A fine piece of ancient Chinese porcelain from the Ming dynasty.",
+    "price": 200,
+    "condition": "Authentic"
+  },
+  {
+    "id": 7,
+    "productName": "Mayan Statue",
+    "image": "https://i.pinimg.com/736x/58/ee/29/58ee29ea776cffd6deff36723c7831b2.jpg",
+    "description": "A small statue from the ancient Mayan civilization.",
+    "price": 150,
+    "condition": "Replica"
+  },
+  {
+    "id": 8,
+    "productName": "Japanese Katana",
+    "image": "https://i.pinimg.com/736x/39/62/6e/39626ef7e13039be796b388f85cf9ea5.jpg",
+    "description": "An exquisite katana crafted by a Japanese swordsmith.",
+    "price": 500,
+    "condition": "Mint"
+  },
+  {
+    "id": 9,
+    "productName": "Aztec Mask",
+    "image": "https://i.pinimg.com/736x/6d/ec/47/6dec47ed0072bbc11f3dc1aa2c814d42.jpg",
+    "description": "A ceremonial mask from the Aztec Empire.",
+    "price": 180,
+    "condition": "Authentic"
+  },
+  {
+    "id": 10,
+    "productName": "Indian Bronze Idol",
+    "image": "https://i.pinimg.com/736x/1a/95/d0/1a95d025029eb90fe4b1499deadbc4e3.jpg",
+    "description": "A bronze idol of a deity from ancient India.",
+    "price": 220,
+    "condition": "Restored"
+  }
+]

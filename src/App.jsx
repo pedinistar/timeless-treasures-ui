@@ -7,24 +7,29 @@ import NotFound from "./pages/NotFoundPage";
 import ShopPage from "./pages/ShopPage";
 import AboutPage from "./pages/AboutPage";
 import ScrollToTop from "./components/helpers/ScrollToTop"; // Import the ScrollToTop component
+import { ProductsProvider } from "./contexts/ProductsContext";
+import ProductPage from "./pages/ProductPage";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <ScrollToTop />{" "}
-      {/* Ensures the page scrolls to the top on route change */}
-      <main className="w-full bg-primary">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/shop" element={<ShopPage />} />
-          {/* Add more defined routes here */}
-          <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
-        </Routes>
-        <ContactSection />
-      </main>
-    </BrowserRouter>
+    <ProductsProvider>
+      <BrowserRouter>
+        <ScrollToTop />{" "}
+        {/* Ensures the page scrolls to the top on route change */}
+        <main className="w-full bg-primary">
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/product/:id" element={<ProductPage />} />
+            {/* Add more defined routes here */}
+            <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
+          </Routes>
+          <ContactSection />
+        </main>
+      </BrowserRouter>
+    </ProductsProvider>
   );
 };
 
