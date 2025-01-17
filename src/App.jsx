@@ -10,6 +10,7 @@ import ScrollToTop from "./components/helpers/ScrollToTop"; // Import the Scroll
 import { ProductsProvider } from "./contexts/ProductsContext";
 import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
+import PaymentSuccess from "./pages/PaymentSuccess";
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
             <Route path="/shop" element={<ShopPage />} />
             <Route path="/product/:id" element={<ProductPage />} />
             <Route path="/cart" element={<CartPage />} />
-            <Route path="/payment-success" element={<CartPage />} />
+            <Route path="/payment-success" element={<PaymentSuccess />} />
             {/* Add more defined routes here */}
             <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
           </Routes>

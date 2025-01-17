@@ -14,7 +14,7 @@ const OurStorySection = () => {
         width={90}
         className="lg:hidden absolute right-0 -bottom-10"
       />
-      <Heading text="Our Story" rootClassName="mt-20"/>
+      <Heading text="{ Our Story }" rootClassName="mt-20"/>
       <div className="text-center relative border-t-2 border-secondary border-opacity-20">
         <p className="font-secondary text-2xl lg:text-4xl text-light mt-10 lg:mt-32">
           Welcome to a place of stories untold, <br />

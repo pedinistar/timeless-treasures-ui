@@ -13,7 +13,7 @@ const CartPage = () => {
 
   return (
     <section className="pt-40 lg:px-72 px-4 font-primary text-light">
-      <Heading text="Cart" />
+      <Heading text="{ Cart }" />
       {cart.length === 0 ? (
         <div className="w-full min-h-screen flex justify-center flex-col items-center">
           <h1 className="text-center mt-20 text-2xl text-secondary">

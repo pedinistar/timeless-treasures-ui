@@ -16,7 +16,7 @@ const ProductsListSection = () => {
     <section className="min-h-screen pt-40">
       <div className="mt-10 mb-20">
         <Heading
-          text="Treasure Shop"
+          text="{ Treasure Shop }"
           textClassName="max-lg:text-3xl"
           secText="Relive history, Own the legacy......"
         />
