@@ -11,7 +11,8 @@ const OurStorySection = () => {
       <img
         src={inkPot}
         alt="A ink pot."
-        className="max-lg:hidden absolute right-0 -bottom-10"
+        width={90}
+        className="lg:hidden absolute right-0 -bottom-10"
       />
       <Heading text="Our Story" rootClassName="mt-20"/>
       <div className="text-center relative border-t-2 border-secondary border-opacity-20">

@@ -6,10 +6,13 @@ import ContactSection from "./components/sections/ContactSection";
 import NotFound from "./pages/NotFoundPage";
 import ShopPage from "./pages/ShopPage";
 import AboutPage from "./pages/AboutPage";
+import ScrollToTop from "./components/helpers/ScrollToTop"; // Import the ScrollToTop component
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />{" "}
+      {/* Ensures the page scrolls to the top on route change */}
       <main className="w-full bg-primary">
         <NavBar />
         <Routes>
