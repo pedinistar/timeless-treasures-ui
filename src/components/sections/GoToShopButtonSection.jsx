@@ -11,7 +11,7 @@ const GoToShopButtonSection = () => {
         rootClassName="mt-10 relative"
         image={cup}
         imageAlt="A cup."
-        imageClassName="w-[140px] lg:-top-10 lg:-right-20 -top-20 right-10"
+        imageClassName="w-[140px] md:-top-10 md:-right-20 -top-20 right-10"
       />
       <p className="mt-8 font-secondary text-2xl text-light">
         Explore more antiques.....

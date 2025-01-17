@@ -1,14 +1,14 @@
-import React from "react";
-import ProductsListSection from "../components/sections/ProductsListSection";
-import GoToCartButtonSection from "../components/sections/GoToCartButtonSection";
+  import React from "react";
+  import ProductsListSection from "../components/sections/ProductsListSection";
+  import GoToCartButtonSection from "../components/sections/GoToCartButtonSection";
 
-const ShopPage = () => {
-  return (
-    <div>
-      <ProductsListSection />
-      <GoToCartButtonSection />
-    </div>
-  );
-};
+  const ShopPage = () => {
+    return (
+      <div>
+        <ProductsListSection />
+        <GoToCartButtonSection />
+      </div>
+    );
+  };
 
-export default ShopPage;
+  export default ShopPage;

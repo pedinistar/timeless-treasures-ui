@@ -43,3 +43,26 @@ img {
 .center-absolute {
   @apply left-1/2 transform -translate-x-1/2;
 }
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #4b2b2b;
+  color: #f5e6e6;
+}
+
+td {
+  color: #e8d7d7;
+}
+
+button {
+  cursor: pointer;
+}
