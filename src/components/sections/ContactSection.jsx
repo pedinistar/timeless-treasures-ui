@@ -11,7 +11,7 @@ import Heading from "../ui/Heading";
 
 const ContactSection = () => {
   return (
-    <section className="w-full min-h-screen flex flex-col items-center py-10 lg:py-20 relative lg:gap-10">
+    <section className="w-full min-h-screen flex flex-col items-center justify-between py-10 lg:py-20 relative lg:gap-10">
       <Heading text="Contact" secText="Write to us" />
       <div className="w-[80%] lg:flex lg:justify-evenly max-lg:flex-col">
         <div className="left max-lg:hidden flex flex-col items-center justify-center">
@@ -24,7 +24,7 @@ const ContactSection = () => {
           </div>
         </div>
         <div className="right max-lg:w-full w-[30%] mt-10 flex flex-col gap-6 items-center relative">
-          <img src={manStatue} alt="A man statue." width={200} />
+          <img src={manStatue} alt="A man statue." width={200} className="lg:hidden"/>
           <Input type="text" placeholder="Name" />
           <Input type="text" placeholder="Email" />
           <textarea
