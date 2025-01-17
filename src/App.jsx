@@ -5,6 +5,7 @@ import NavBar from "./components/ui/NavBar";
 import ContactSection from "./components/sections/ContactSection";
 import NotFound from "./pages/NotFoundPage";
 import ShopPage from "./pages/ShopPage";
+import AboutPage from "./pages/AboutPage";
 
 const App = () => {
   return (
@@ -13,8 +14,8 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/shop" element={<ShopPage />} />
-          <Route path="/" element={<HomePage />} />
           {/* Add more defined routes here */}
           <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
         </Routes>
