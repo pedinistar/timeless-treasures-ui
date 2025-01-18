@@ -15,14 +15,14 @@ const CartPage = () => {
     <section className="pt-40 lg:px-72 px-4 font-primary text-light">
       <Heading text="{ Cart }" />
       {cart.length === 0 ? (
-        <div className="w-full min-h-screen flex justify-center flex-col items-center">
-          <h1 className="text-center mt-20 text-2xl text-secondary">
+        <div className="w-full h-[70vh] flex justify-center flex-col items-center">
+          <h1 className="text-center text-2xl text-secondary">
             Your cart is empty!
           </h1>
           <img
             src={emptyCart}
             alt="A woman sitting."
-            className="w-[200px] md:w-[300px] mt-10"
+            className="max-md:hidden w-[200px] md:w-[300px] absolute left-0"
           />
         </div>
       ) : (
