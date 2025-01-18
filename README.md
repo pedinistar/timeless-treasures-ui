@@ -20,7 +20,7 @@ Timeless Treasure UI serves as the user interface for our e-commerce platform de
   - Cart
 - **Live Preview**: Deployed on Vercel for easy access.  
 
-[Live Demo on Vercel](https://timeless-treasures-ui.vercel.app/)  
+-> [Live Demo on Vercel](https://timeless-treasures-ui.vercel.app/)  
 
 
 ## 🛠️ Tech Stack  
