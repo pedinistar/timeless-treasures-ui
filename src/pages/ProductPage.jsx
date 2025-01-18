@@ -25,7 +25,7 @@ const ProductPage = () => {
       />
 
       <div className="w-full flex max-lg:flex-col max-lg:gap-10 items-center justify-between mt-20">
-        <h1 className="text-4xl">$ {product.price}</h1>
+        <h1 className="text-4xl">₹ {product.price}</h1>
         <Button
           text="Add To Cart"
           rootClassName="w-fit"
