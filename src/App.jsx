@@ -11,10 +11,12 @@ import { ProductsProvider } from "./contexts/ProductsContext";
 import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import PaymentSuccess from "./pages/PaymentSuccess";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
     <ProductsProvider>
+      <Analytics />
       <BrowserRouter>
         <ScrollToTop />{" "}
         {/* Ensures the page scrolls to the top on route change */}
